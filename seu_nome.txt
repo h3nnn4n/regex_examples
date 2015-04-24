@@ -1,0 +1,7 @@
+cat /dev/urandom | base64 | egrep [rR].*[eE].*[nN].*[aA].*[nN]
+cat /dev/urandom | base64 | egrep [rR][eE].*[nN].*[aA].*[nN]
+cat /dev/urandom | base64 | egrep [rR][eE][nN].*[aA].*[nN]
+cat /dev/urandom | base64 | egrep [rR][eE][nN][aA].*[nN]
+cat /dev/urandom | base64 | egrep [rR][eE][nN][aA][nN]
+cat /dev/urandom | base64 | egrep -i 'renan'
+cat /dev/urandom | base64 | egrep -i 'seunomeaqui'
